@@ -24,3 +24,9 @@ It runs very slowly, and after a certain amount of input, it will no longer outp
 The usage code (what I write) is in this github. I am strongly recommand to use the locally MetaMap.
 
 ## Locally MetaMap
+
+Locally MetaMap is `more like a server`. 
+After installation, subsequent code can be written with python code.
+There are some repo show how to write python code: [pymetamap](https://github.com/AnthonyMRios/pymetamap), [Pymm](https://github.com/smujjiga/pymm).
+
+Before install the Locally MetaMap, please download [JAVA](www.java.com), otherwise, you will fail to run the server.
