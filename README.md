@@ -5,11 +5,11 @@ In other words, MetaMap is a NLP tool for extracting the medical words by using 
 
 There are several ways to use this tool: [Interactive MetaMap](https://ii.nlm.nih.gov/Interactive/UTS_Required/MetaMap.html), [Web API](https://github.com/lhncbc/skr_web_python_api), and [Locally MetaMap](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/run-locally/MetaMap.html).
 
-## Interactive MetaMap
+### Interactive MetaMap
 The interactive MetaMap is a interactive tool for MetaMap.
 As shown on the [website](https://ii.nlm.nih.gov/Interactive/UTS_Required/MetaMap.html), you can type a short paragraph to **check the output that MetaMap generates**.
 
-## Web API
+### Web API
 The Web API is a Python-based API.
 > [!NOTE]  
 > This way seems to be the same as the original intention of Interactive metamap, **just to let you check what this tool can output**.
@@ -27,7 +27,7 @@ The author has given a great way to use it on [github](https://github.com/lhncbc
 > 
 > The usage code (what I write) is in this github. I am strongly recommand to use the locally MetaMap.
 
-## Locally MetaMap
+### Locally MetaMap
 
 Locally MetaMap is `more like a server`. 
 After installation, subsequent code can be written with python code.
@@ -54,3 +54,5 @@ Open and stop the server (the path need be in the `public_mm`):
 ./bin/skrmedpostctl stop
 ./bin/wsdserverctl stop
 ```
+
+## Usage
