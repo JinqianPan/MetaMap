@@ -7,16 +7,16 @@ There are several ways to use this tool: [Interactive MetaMap](https://ii.nlm.ni
 
 ## Interactive MetaMap
 The interactive MetaMap is a interactive tool for MetaMap.
-As shown on the [website](https://ii.nlm.nih.gov/Interactive/UTS_Required/MetaMap.html), you can type a short paragraph to see the output that MetaMap generates.
+As shown on the [website](https://ii.nlm.nih.gov/Interactive/UTS_Required/MetaMap.html), you can type a short paragraph to **check the output that MetaMap generates**.
 
 ## Web API
 The Web API is a Python-based API.
-This way seems to be the same as the original intention of Interactive metamap, just to let you check what this tool can output.
+This way seems to be the same as the original intention of Interactive metamap, **just to let you check what this tool can output**.
 
 The author has given a great way to use it on [github](https://github.com/lhncbc/skr_web_python_api).
 This API could use on Server (Linux) not on MacOS, because something is not working for `requests-html` on MacOS.
 
-Before using this API, please Sgin up [UMLS Metathesaurus Browser](https://uts.nlm.nih.gov/uts/umls/home) to get the API key. After signing in, the API is in the `My Profile`.
+**Before using this API**, please Sgin up [UMLS Metathesaurus Browser](https://uts.nlm.nih.gov/uts/umls/home) to get the API key. After signing in, the API is in the `My Profile`.
 
 The API is good, but the terminal where the database is located is very bad. 
 It runs very slowly, and after a certain amount of input, it will no longer output results, whether you change your account (email and API key) or not.
