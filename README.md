@@ -39,10 +39,10 @@ And official also gives [install guide](https://lhncbc.nlm.nih.gov/ii/tools/Meta
 Note: They give three shells the installation method, and you only need to choose the corresponding method on your own computer.
 
 Open and stop the server (the path need be in the `public_mm`):
-"""
+```
 ./bin/skrmedpostctl start
 ./bin/wsdserverctl start
 
 ./bin/skrmedpostctl stop
 ./bin/wsdserverctl stop
-"""
+```
