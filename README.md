@@ -21,4 +21,6 @@ Before using this API, please Sgin up [UMLS Metathesaurus Browser](https://uts.n
 The API is good, but the terminal where the database is located is very bad. 
 It runs very slowly, and after a certain amount of input, it will no longer output results, whether you change your account (email and API key) or not.
 
+The usage code (what I write) is in this github. I am strongly recommand to use the locally MetaMap.
+
 ## Locally MetaMap
