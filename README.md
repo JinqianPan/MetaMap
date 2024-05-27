@@ -26,7 +26,7 @@ The author has given a great way to use it on [github](https://github.com/lhncbc
 > The API is good, but the terminal where the database is located is very bad. 
 > It runs very slowly, and after a certain amount of input, it will no longer output results, whether you change your account (email and API key) or not.
 > 
-> The usage code (what I write) is in this github. I am strongly recommand to use the locally MetaMap.
+> The usage code (what I write) is in `web_API folder`. I am strongly recommand to use the locally MetaMap.
 
 ### Locally MetaMap
 
@@ -57,3 +57,5 @@ Open and stop the server (the path need be in the `public_mm`):
 ```
 
 ## Usage
+### Sem-Types
+The [documentation](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/documentation/SemanticTypesAndGroups.html) of Semantic Types and Groups has been offered. I also download the file into `support_data` foler.
