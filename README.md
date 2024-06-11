@@ -66,6 +66,8 @@ error(system_error,system_error(SPIO_E_NET_CONNREFUSED))`
 The output will be gone.
 
 In this case, please use the the `find_error.ipynb` to rerun the part which get this error.
+Because I use slurm to run the code, I use the log to find the error.
+You can also use the output file to find these error.
 
 ## Usage
 ### Sem-Types
