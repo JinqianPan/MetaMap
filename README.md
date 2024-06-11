@@ -6,10 +6,12 @@ In other words, MetaMap is a NLP tool for extracting the medical words by using 
 
 There are several ways to use this tool: [Interactive MetaMap](https://ii.nlm.nih.gov/Interactive/UTS_Required/MetaMap.html), [Web API](https://github.com/lhncbc/skr_web_python_api), and [Locally MetaMap](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/run-locally/MetaMap.html).
 
+---
 ### Interactive MetaMap
 The interactive MetaMap is a interactive tool for MetaMap.
 As shown on the [website](https://ii.nlm.nih.gov/Interactive/UTS_Required/MetaMap.html), you can type a short paragraph to **check the output that MetaMap generates**.
 
+---
 ### Web API
 The Web API is a Python-based API.
 > [!NOTE]  
@@ -28,6 +30,7 @@ The author has given a great way to use it on [github](https://github.com/lhncbc
 > 
 > The usage code (what I write) is in `web_API folder`. I am strongly recommand to use the locally MetaMap.
 
+---
 ### Locally MetaMap
 
 Locally MetaMap is `more like a server`. 
