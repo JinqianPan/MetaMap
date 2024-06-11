@@ -59,6 +59,14 @@ Open and stop the server (the path need be in the `public_mm`):
 ./bin/wsdserverctl stop
 ```
 
+#### Some tips
+When running the code, the API will give the error: 
+`### MetaMap ERROR: Calling socket_client_open for TAGGER Server on host localhost and port 1795:
+error(system_error,system_error(SPIO_E_NET_CONNREFUSED))`
+The output will be gone.
+
+In this case, please use the the `find_error.ipynb` to rerun the part which get this error.
+
 ## Usage
 ### Sem-Types
 The [documentation](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/documentation/SemanticTypesAndGroups.html) of Semantic Types and Groups has been offered. I also download the file into `support_data` foler.
