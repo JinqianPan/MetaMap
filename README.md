@@ -55,9 +55,13 @@ Open and stop the server (the path need be in the `public_mm`):
 ./bin/skrmedpostctl start
 ./bin/wsdserverctl start
 
+python code here
+
 ./bin/skrmedpostctl stop
 ./bin/wsdserverctl stop
 ```
+
+My code is in the `local_mm` file.
 
 #### Some tips
 When running the code, the API will give the error: 
@@ -65,7 +69,7 @@ When running the code, the API will give the error:
 error(system_error,system_error(SPIO_E_NET_CONNREFUSED))`
 The output will be gone.
 
-In this case, please use the the `find_error.ipynb` to rerun the part which get this error.
+In this case, please use the the `local_mm/find_error.ipynb` to rerun the part which get this error.
 Because I use slurm to run the code, I use the log to find the error.
 You can also use the output file to find these error.
 
